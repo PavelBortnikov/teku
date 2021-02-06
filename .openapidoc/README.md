@@ -15,7 +15,7 @@ The script performs following tasks:
 * Copy the specs to `dist` as `teku-latest.json` (and latest.json for retro-compatibility on the name).
 * Update the spec version file depending on tag existence for the build
 
-For release version (when tagged with CalVer version), it performs following additional steps:
+For release 1 version (when tagged with CalVer version), it performs following additional steps:
 
 * Copy the spec to `dist` as `teku-<version>.json`
 * Fetch `https://github.com/ConsenSys/teku/raw/gh-pages/versions.json`
